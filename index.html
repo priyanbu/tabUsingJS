@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <div class="constractor">
+            <div class="tabs">
+                <h3 class="signup">SignUp</h3>
+                <h3  class="signin" >Login</h3>
+            </div>
+            <div class="tab-content">
+                <div class="signup">
+                    <form class="form" id="signup-form" onsubmit="doSignup()">
+
+                        <ul>
+                            <li><input type="text" id="firstname" name="firstname" placeholder="firstname">
+                                <input type="text" id="lastname" name="lastname" placeholder="lastname"></li>
+                            <li><input type="text" id="mail" name="mail" placeholder="email"></li>
+                            <li><input type="password" id="password" name="password" placeholder="password"></li>
+                            <li><input type="checkbox" name="policyAgree" id="policy-agree"> I accept the <span>Terms of
+                                    use& privacy policy</span></li>
+                            <!-- <button class="submit" onclick="myFunction()">Submit</button> -->
+                            <input type="submit" class="submit" />
+                        </ul>
+                    </form>
+                </div>
+                <div class="signin">
+                    <form>
+                        <ul>
+                            <li><input type="text" id="mail" name="mail" placeholder="mail"></li>
+                            <li><input type="password" id="password" name="password" placeholder="password"></li>
+                            <li><input type="checkbox" name="rememberme" id="remeberMe"> Remember me</span></li>
+                            <!-- <button class="submit" onclick="myFunction()">Submit</button> -->
+                            <input type="submit" class="submit" />
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="./signup.js"></script>
+</body>
+
+</html>
