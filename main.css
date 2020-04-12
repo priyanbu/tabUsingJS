@@ -1,0 +1,67 @@
+.body-wrapper{
+    width: 800px;
+    padding: 70px 20px;
+    background-color:cornflowerblue;
+    margin: 0 auto;
+}
+ul > li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+span{
+    color: darkblue;
+    text-transform: capitalize;
+}
+.constractor{
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px 10px;
+}
+.tabs{
+    width:90%;
+    background-color:blue;
+    display: flex
+
+}
+.tabs > h3 {
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.tabs .active{
+    color: #444;
+    background-color: #f78;
+}
+
+input[type=text],input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ccc;
+  }
+
+  input[type=checkbox] {
+    padding: 12px 0px;
+
+   
+  }
+  .submit{
+      padding: 5px 15px;
+      margin-top: 20px;
+      background-color: cornflowerblue;
+      color: #000;
+  }
+  .submit:hover{
+      background-color: #ccc;
+     }
+    
